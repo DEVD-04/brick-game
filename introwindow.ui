@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IntroWindow</class>
+ <widget class="QMainWindow" name="IntroWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>968</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IntroWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="title_label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>601</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Brick Breaker Game</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions_title_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Computer Graphics Project</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="controls_title_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Controls: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="controls_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>481</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- Use 'space' on your keyboard to launch the ball&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- Use 'a' or 'd' on your keyboard to move&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- Use 'p' on your keyboard to pause / unpause&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="start_label">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>90</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Let's Get Started!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_push_button">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>381</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>40</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Start!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="powerups_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>481</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#0000ff;&quot;&gt;Blue &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;blocks are &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#0000ff;&quot;&gt;normal&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#969600;&quot;&gt;Yellow&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; blocks &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#909000;&quot;&gt;shrink &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;your paddle&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#3ebcbc;&quot;&gt;Cyan &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;blocks &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#40c1c1;&quot;&gt;grow &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;your paddle&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#df0000;&quot;&gt;Red&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; blocks &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#dd0000;&quot;&gt;slow down&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; your paddle&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#3db800;&quot;&gt;Green &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;blocks &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#3fbd00;&quot;&gt;speed up&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; your paddle&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="powerups_title_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Powerups:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions_title_label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>BCSE-III</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions_title_label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Section-A3, Group-2</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>993</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
